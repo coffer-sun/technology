@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.0">
+  <display-name>technology</display-name>
+  <welcome-file-list>
+    <welcome-file>goindex.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!-- 地址容错，增强界面友好性 -->
+  <error-page>
+    <error-code>404</error-code>
+    <location>/page/errorpage/error404.html</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/page/errorpage/error500.html</location>
+  </error-page>
+
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+  <!-- 监听器 -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <!-- 配置前端控制器，DispatcherServlet主要用作职责调度工作，本身主要用于控制流程 -->
+  <servlet>
+    <servlet-name>springMVC</servlet-name><!-- 配置文件为“servlet-name” + “-servlet” = springmvc-servlet.xml -->
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:springMVC-servlet.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup><!-- 表示启动容器时初始化该Servlet -->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>springMVC</servlet-name>
+    <url-pattern>/</url-pattern><!-- 拦截所有请求 -->
+  </servlet-mapping>
+
+  <!-- 设置汉字编码，防止乱码 -->
+  <filter>
+    <filter-name>encodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>encodingFilter</filter-name>
+    <url-pattern>/*</url-pattern><!-- 对根目录下所有文件编码 -->
+  </filter-mapping>
+
+  <!--设置session有效期，1小时-->
+  <session-config>
+    <session-timeout>60</session-timeout>
+  </session-config>
+</web-app>
