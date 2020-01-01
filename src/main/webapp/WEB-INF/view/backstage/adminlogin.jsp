@@ -237,8 +237,8 @@
 <div class="body-opa">
     <div class="banner-text">
         <p class="text-left">@ MORTAL</p>
-        <p class="text-center">折叠不可能</p>
-        <p class="text-right">2009 折叠下一个十年</p>
+        <p class="text-center">基础服务</p>
+        <p class="text-right">让种植更简便</p>
     </div>
 </div>
 <h4 class="body-opa-text text-center">

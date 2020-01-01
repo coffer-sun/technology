@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>凡品科技官网-用户中心</title>
+    <title>种子服务商城-用户中心</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath }/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/css/upubliccss.css">
     <script src="${pageContext.request.contextPath }/js/jquery-1.10.2.min.js"></script>

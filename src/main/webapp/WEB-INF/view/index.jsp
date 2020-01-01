@@ -1,7 +1,7 @@
 <%--
   Created by IntelliJ IDEA.
   User: MR·Wang
-  Date: 2019/10/13
+  Date: 2019/12/16
   Time: 下午 9:44
   To change this template use File | Settings | File Templates.
 --%>
@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <title>辉腾科技官网-首页</title>
+    <title>种子服务商城-首页</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath }/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/css/indexcss.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/css/upubliccss.css">
@@ -83,9 +83,9 @@
     <!--模块二-->
     <div class="row center-content" style="padding-bottom: 80px">
         <%--<img src="" alt="图片">--%>
-        <h1 class="text-center">"柔性+" 商用解决方案</h1>
-        <p class="text-center">合肥市辉腾科技有限公司是全球柔性显示、柔性传感、柔性屏手机及相关智能设备的领航者，</p>
-        <p class="text-center">专注于下一代人机交互及万物互联技术和产品的研究、开发、生产及销售。</p>
+        <h1 class="text-center">"互联网+" 商用解决方案</h1>
+        <p class="text-center">领航者，</p>
+        <p class="text-center">专注于下一代种子的研究、开发、生产及销售。</p>
         <div class="col-lg-4">
             <img alt="图片" src="${pageContext.request.contextPath }/images/siba.jpg" width="100%">
         </div>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>凡品科技官网</title>
+    <title>种子服务商城</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath }/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/css/productcss.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/css/upubliccss.css">

@@ -16,14 +16,14 @@ import com.fanpin.entity.User;
 import com.fanpin.service.ILoginSvc;
 
 /**
- * @Component <context:component-scan base-package="com.fanpin.*" />
- * @Aspect 切面
+ * @Component <context:component-scan base-package="com.fanpin.*" />    （把普通pojo实例化到spring容器中，相当于配置文件中的<bean id="" class=""/>）
+ * @Aspect 切面 作用是把当前类标识为一个切面供容器读取
  * 优先级：before优先around优先after
  * */
 @Component
 @Aspect
 public class TransactionAdvice {
-
+	//@Resource的作用相当于@Autowired，只不过@Autowired按byType自动注入，而@Resource默认按 byName自动注入罢了。
 	@Resource
 	private ILoginSvc loginSvc;
 	

@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>凡品科技官网-用户中心</title>
+    <title>种子商城-用户中心</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath }/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/css/upubliccss.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/css/adindexcss.css">
@@ -189,7 +189,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-30 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -200,7 +200,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-30 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -211,7 +211,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-30 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -222,7 +222,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-30 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -233,7 +233,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-13 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -244,7 +244,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-13 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -255,7 +255,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-30 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -266,7 +266,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-30 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -277,7 +277,7 @@
                                         <li>CMW</li>
                                         <li>发布信息发布信息发布信息</li>
                                         <li>全部</li>
-                                        <li>2019-10-10 23:23:23</li>
+                                        <li>2019-12-30 23:23:23</li>
                                         <li>
                                             <a href="#" class="btn btn-default">修改</a>
                                             <a href="#" class="btn btn-default">删除</a>
@@ -337,7 +337,7 @@
 </div>
 
 <div class="footer-page copyright text-center">
-    <p>Copyright:For me &copy; 1019 All Rights Reserved. 备案号：皖ICP备13012807号-1</p>
+    <p>Copyright:For me &copy; 1019 All Rights Reserved. 备案号：北民大9527号-01</p>
 </div>
 
 <script>

@@ -29,12 +29,19 @@ public class ToolsUtil {
      *                    注意:“hh”是12小时制，“HH”为24小时制
      * @param index       为正表示当前时间加天数，为负表示当前时间减天数，为0表示不加减
      */
+    //  使用Calendar.getInstance()不仅能获取当前的时间，还能指定需要获取的时间点，在项目应用中达到定时的作用
+
     public static String getTime(String time_format, int index) {
         Date date = new Date();
         SimpleDateFormat format = new SimpleDateFormat(time_format);
         if (index != 0) {
             Calendar calendar = Calendar.getInstance();
+            /*
+             * public void add(int field,int amount):根据给定的日历字段和对应的时间,来对当前的日历进行操作。(根据日历字段,增加或减去)
+             * public final void set(int year,int month,int date):设置当前日历的年月日。(直接设置日历值);
+             */
             calendar.add(Calendar.DAY_OF_MONTH, index);
+           // java.util.Calendar.getTime() 方法返回一个Date对象，它表示此Calendar的时间值
             return format.format(calendar.getTime());
         }
         return format.format(date);
@@ -54,11 +61,13 @@ public class ToolsUtil {
         return log;
     }
 
-    /*
-     * */
+    /**
+     * 工具类，获取Request
+     */
     public static String getContextPath() {
-        HttpServletRequest request = CoreUtil.getRequest();
-        return request.getContextPath();
+         HttpServletRequest request = CoreUtil.getRequest();
+        //request.getContextPath是为了解决相对路径的问题，可返回站点的根路径。
+         return request.getContextPath();
     }
 
     /**
